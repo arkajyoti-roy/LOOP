@@ -1,0 +1,70 @@
+ <Swiper
+      spaceBetween={50}
+      slidesPerView={3}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+      ...
+    </Swiper>
+hkf
+hlo
+onMouseEnter={sliderfunction}
+Shirsen
+
+Arka
+vcv
+  
+    <div className="main">
+
+
+
+
+
+      {/* <div className="nav"></div> */}
+
+
+      <div className="head">
+
+        <div className="top">
+      
+        </div>
+        <div className="top">
+        </div>
+        <div className="top">
+        </div>
+        <div className="top">
+        </div>
+        <div className="top">
+        </div>
+        <div className="top">
+        </div>
+     
+    </div>
+
+     
+
+
+
+<div className="mid">
+   <div className="middle"></div>
+   <div className="middle"></div>
+   <div className="middle"></div>
+   <div className="middle"></div>
+   <div className="middle"></div>
+</div>
+
+
+
+<div className="bot">
+
+<div className="last"></div>
+<div className="last"></div>
+
+</div>
+
+
+    </div>
