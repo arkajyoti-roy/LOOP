@@ -13,9 +13,7 @@ const Nav = () => {
   return (
     <>
       <div className="nav">
-        
-      <aside className="sidebar">
-        
+        <aside className="sidebar">
           {/* <div className="logo">
             <img src="../img/logo.jpg" alt="logo" />
             <h2>LOOP</h2>
@@ -27,7 +25,9 @@ const Nav = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <span className="material-symbols-outlined">collections_bookmark</span>
+              <span className="material-symbols-outlined">
+                collections_bookmark
+              </span>
               <NavLink to="/material">Materials</NavLink>
             </li>
             <li>
@@ -38,7 +38,7 @@ const Nav = () => {
             <h4>Advanced</h4>
             <li>
               <span className="material-symbols-outlined">terminal</span>
-           <NavLink to="/compiler" > Compiler</NavLink>
+              <NavLink to="/compiler"> Compiler</NavLink>
             </li>
             <li>
               <span className="material-symbols-outlined">edit_square</span>
@@ -53,7 +53,9 @@ const Nav = () => {
               <NavLink to="/updates">Updates</NavLink>
             </li>
             <li>
-              <span className="material-symbols-outlined">sentiment_satisfied</span>
+              <span className="material-symbols-outlined">
+                sentiment_satisfied
+              </span>
               <NavLink to="/feedback">Feedback</NavLink>
             </li>
             <hr />
@@ -77,15 +79,23 @@ const Nav = () => {
           </ul>
         </aside>
 
-
-
-      <div className='top-nav'>
-      <img className="nav-logo" src="../../public/img/logo.jpg" alt="logo"/>
-        <div className='search'>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11 2C15.968 2 20 6.032 20 11C20 15.968 15.968 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2ZM11 18C14.8675 18 18 14.8675 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18ZM19.4853 18.0711L22.3137 20.8995L20.8995 22.3137L18.0711 19.4853L19.4853 18.0711Z"></path></svg>
-          <input type="text" placeholder='Type here to search'/>
+        <div className="top-nav">
+          <img
+            className="nav-logo"
+            src="../../public/img/logo.jpg"
+            alt="logo"
+          />
+      
+            <div className="group">
+              <svg className="icon" aria-hidden="true" viewBox="0 0 24 24">
+                <g>
+                  <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                </g>
+              </svg>
+              <input placeholder="Search" type="search" className="input" />
+            </div>
+         
         </div>
-      </div>
       </div>
     </>
   );
