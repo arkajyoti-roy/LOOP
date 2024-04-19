@@ -282,9 +282,8 @@ align-items: center;
 .sidebar {
   /* border-top-right-radius: 25px;
   border-top-right-radius: 25px; */
-  margin-top: 70px;
   position: fixed;
-  top: 0;
+  top: 9%;
   left: 0;
   width: 48px;
   height: 106%;
