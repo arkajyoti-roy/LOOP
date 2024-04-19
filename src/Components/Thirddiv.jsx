@@ -7,7 +7,7 @@ const Thirddiv = () => {
     <>
      <div style={{display:"flex", gap:"41px"}}>
     <div className='thirddiv'>
-<NavLink to="/third">   <button className='lsbtn'>🡢</button> </NavLink>
+<NavLink to="/compiler">   <button className='lsbtn'>🡢</button> </NavLink>
     </div>
 
 <div className='profile'></div>
