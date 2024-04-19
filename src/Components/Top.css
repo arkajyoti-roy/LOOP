@@ -232,8 +232,9 @@ content: 'next';
 }
 
 .nav-logo{
-margin-top: 10px;
-height: 60px;
+margin-top: 15px;
+margin-bottom: 10px;
+height: 40px;
 width: auto;
 display: block;
 margin-left: auto;
