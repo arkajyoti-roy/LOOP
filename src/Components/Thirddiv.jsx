@@ -10,7 +10,9 @@ const Thirddiv = () => {
 <NavLink to="/compiler">   <button className='lsbtn'>🡢</button> </NavLink>
     </div>
 
-<div className='profile'></div>
+<div className='profile'>
+  
+</div>
 {/* <h3>Profile</h3> */}
     </div>
     </>

@@ -208,15 +208,15 @@ input:hover {
   margin-left: 105px;
   margin-top: 37px;
   width: 885px;
-  height: 160px;
+  height: 268px;
   border-radius: 12px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   /* border: 1px solid black; */
 }
 
 .profile {
-  width: 400px;
-  height: 357px;
+  width: 356px;
+  height: 500px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   /* border: 1px solid black; */
   border-radius: 12px;
