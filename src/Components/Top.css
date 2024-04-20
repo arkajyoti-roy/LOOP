@@ -285,7 +285,7 @@ button:hover {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  min-height: 100vh;
+  min-height: 88vh !important;
   background: #ffffff !important;
   color: rgb(0, 0, 0) .500;
   -webkit-padding-start: 6px;
