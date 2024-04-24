@@ -1,6 +1,6 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Top.css";
 import { NavLink } from "react-router-dom";
 import Category from "./Category/Category";
@@ -11,6 +11,9 @@ const Nav = () => {
   const sliderfunction = () => {
     setslider((item) => !item);
   };
+  useEffect(()=>{
+    console.log("Mount FIrst Time");
+  },[])
 
   return (
     <>
