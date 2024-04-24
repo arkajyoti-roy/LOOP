@@ -1,0 +1,141 @@
+.Categorysection {
+    width: 70%;
+    height: 450px;
+    background-color: rgb(245, 245, 245);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: translateY(3.3%);
+    margin-left: 6.4%;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+
+.sectionone {
+    width: 300px;
+    height: 100%;
+    background-color: black;
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectiononetwo {
+    width: 300px;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectiontwo {
+    width: 750px;
+    height: 360px;
+    background-color: whitesmoke;
+    box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.85);
+    -webkit-box-shadow: 0px -1px 13px -4px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.85);
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+
+.sectiononechild {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5px;
+    cursor: pointer;
+
+}
+
+.sectiononechildtw {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(177, 173, 173);
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5px;
+    cursor: pointer;
+
+}
+
+.sectiononechildthree {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AllCource {
+    padding-left: 5px;
+    font-size: 19px;
+}
+
+.sectiononechildtwo {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.sectiononechildtwo:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: aliceblue;
+    color: #000;
+
+}

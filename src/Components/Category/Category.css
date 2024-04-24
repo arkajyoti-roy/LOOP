@@ -1,0 +1,19 @@
+.category{
+    width: 170px;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+  .storeicon{
+    width: 25px;
+    height: 25px;
+  }
+  .categorytext{
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }

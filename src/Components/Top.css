@@ -100,6 +100,30 @@ body {
   position: fixed;
 }
 
+
+
+.Categorysectionnone{
+  width: 70%;
+  height: 450px;
+  background-color: rgb(245, 245, 245);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform: translateY(3.3%);
+  margin-left: 6.4%;
+  display: none;
+  transition: all 0.4s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
 .top-nav h2 {
   text-align: center;
   /* position: fixed; */
@@ -112,11 +136,11 @@ body {
   line-height: 28px;
   align-items: center;
   position: relative;
-  max-width: 190px;
+  max-width: 390px;
 }
 
 .input {
-  width: 100%;
+  width: 160px;
   height: 40px;
   line-height: 32px;
   padding: 0 1rem;
@@ -130,7 +154,10 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  margin-right: 20px;
 }
+
+
 
 .input::placeholder {
   color: #9e9ea7;
