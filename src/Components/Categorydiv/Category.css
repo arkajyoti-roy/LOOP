@@ -1,11 +1,13 @@
 .Categorysection {
     width: 70%;
     height: 450px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255) !important;
+    /* -webkit-backdrop-filter: saturate(200%) blur(30px);
+    backdrop-filter: saturate(200%) blur(30px); */
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     transform: translateY(3.3%);
     margin-left: 6.4%;
     transition: all 0.4s ease-in-out;
@@ -19,7 +21,11 @@
 .sectionone {
     width: 300px;
     height: 100%;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 0px 2px #fefefed1;
+    -webkit-backdrop-filter: saturate(200%) blur(30px);
+    backdrop-filter: saturate(200%) blur(30px);
     border-radius: 16px;
     padding: 10px;
     display: flex;
@@ -45,12 +51,13 @@
 .sectiontwo {
     width: 750px;
     height: 360px;
-    background-color: whitesmoke;
-    box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.85);
-    -webkit-box-shadow: 0px -1px 13px -4px rgba(0, 0, 0, 0.85);
-    -moz-box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.85);
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    -webkit-backdrop-filter: saturate(200%) blur(50px);
+    backdrop-filter: saturate(200%) blur(50px);
+    border-left: 3px solid #ffc6c7;
     border-radius: 16px;
     padding: 10px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -62,11 +69,11 @@
 .sectiononechild {
     width: 100%;
     height: 50px;
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
     font-size: 18px;
     font-family: 'poppins', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-self: center;
     align-items: center;
@@ -79,11 +86,11 @@
 .sectiononechildtw {
     width: 100%;
     height: 50px;
-    background-color: rgb(177, 173, 173);
+    background-color: #506be0;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     font-size: 18px;
     font-family: 'poppins', sans-serif;
-    color: black;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -96,11 +103,11 @@
 .sectiononechildthree {
     width: 100%;
     height: 50px;
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
     font-size: 18px;
     font-family: 'poppins', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-self: center;
     align-items: center;
@@ -115,6 +122,7 @@
 .AllCource {
     padding-left: 5px;
     font-size: 19px;
+    color: white;
 }
 
 .sectiononechildtwo {
@@ -123,7 +131,8 @@
     border-radius: 10px;
     font-size: 18px;
     font-family: 'poppins', sans-serif;
-    color: whitesmoke;
+    background-color: #ffc6c721;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-self: center;
     align-items: center;
@@ -135,7 +144,7 @@
 
 .sectiononechildtwo:hover {
     transition: all 0.4s ease-in-out;
-    background-color: aliceblue;
-    color: #000;
+    background-color: #ffc6c7;
+    color: rgb(0, 0, 0);
 
 }
