@@ -100,8 +100,6 @@ body {
   position: fixed;
 }
 
-
-
 .Categorysectionnone{
   width: 70%;
   height: 450px;
@@ -131,7 +129,7 @@ body {
 
 .group {
   margin-top: -48px;
-  margin-left: 115px;
+  margin-left: 10px;
   display: flex;
   line-height: 28px;
   align-items: center;
@@ -140,7 +138,7 @@ body {
 }
 
 .input {
-  width: 160px;
+  width: 200px;
   height: 40px;
   line-height: 32px;
   padding: 0 1rem;

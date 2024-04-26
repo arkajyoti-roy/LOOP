@@ -11,9 +11,9 @@ const Nav = () => {
   const sliderfunction = () => {
     setslider((item) => !item);
   };
-  useEffect(()=>{
+  useEffect(() => {
     console.log("Mount FIrst Time");
-  },[])
+  }, [])
 
   return (
     <>
@@ -101,7 +101,7 @@ const Nav = () => {
             <Category dropdown={sliderfunction} />
           </div>
           {slider === false ? (
-            <Categorysection/>
+            <Categorysection />
           ) : (
             <div className="CategorysectionDisable"></div>
           )}
