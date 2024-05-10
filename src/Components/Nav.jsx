@@ -33,7 +33,7 @@ const Nav = () => {
               <span className="material-symbols-outlined">
                 collections_bookmark
               </span>
-              <NavLink to="/material">Materials</NavLink>
+              <NavLink to="/Material">Materials</NavLink>
             </li>
             <li>
               <span className="material-symbols-outlined">account_tree</span>

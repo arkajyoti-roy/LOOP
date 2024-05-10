@@ -1,0 +1,66 @@
+.Material{
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.codewithFeature{
+    width: 100%;
+    height: 363px;
+    background-color: rgb(106, 131, 154);
+}
+.codewithFeaturetwo{
+    width: 100%;
+    height: 363px;
+    background-color: rgb(67, 86, 103);
+}
+.codewithFeaturethree{
+    width: 100%;
+    height: 363px;
+    background-color: rgb(88, 101, 112);
+}
+.Materialtwo{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(85, 69, 69);
+}
+
+.buildyourfeature{
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 200px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.buildyourfeaturetwo{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(72, 70, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 200px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.buildyourfeaturethree{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(41, 38, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 200px;
+    font-size: 30px;
+    font-weight: 600;
+}
